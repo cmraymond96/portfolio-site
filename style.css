@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+}
+body {
+    background-color: #0d1b2a;
+    color: #f5f0e8;
+}
+.sidenav {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
