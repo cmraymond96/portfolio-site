@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Readex+Pro:wght@300;400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .portfolio {
     display: flex;
     flex-direction: row;
 }
+
 body {
     background-color: #0d1b2a;
     color: #f5f0e8;
+    font-family: 'Readex Pro',sans-serif;
+    cursor: url('assets/vector-diamond-open.svg') 11 11, auto;
 }
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.nav-links-list, .nav-resume {
+    font-family: 'DM Mono', monospace;
+}
+
 .sidenav {
     height: 100vh;
     width: 220px;
@@ -18,4 +32,43 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    border-right: 1px solid rgba(245, 240, 232, 0.15); 
+}
+
+.nav-links-list {
+    list-style: none;
+}
+
+.nav-links-list li {
+    margin-bottom: 1.25rem;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #f5f0e8;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: url('assets/vector-diamond-filled.svg') 11 11, pointer;
+}
+
+.sidenav a:hover {
+    color: #e0a458;
+}
+
+.main-content {
+    margin-left: 220px;
+}
+
+.main-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
