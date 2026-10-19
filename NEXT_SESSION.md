@@ -17,14 +17,15 @@
 Plan going forward: short (~30 min) website sessions to rebuild rhythm. Detroit pipeline waits for a longer runway.
 
 **10/16/2026:** Added `h2` type scale (2.5rem). Renamed `.intro-body` → `.body-copy` and applied to Intro and About. Built Skills section: four groups (Databases & SQL, Python, Reporting & BI, Engineering Tools) in `.skills-grid`. Listed SQL Server as SSMS, not SSIS (query work, not ETL packages).
----
+
+**10/19/2026:** Built Contact section (body copy, mailto email, LinkedIn, GitHub). Fixed `text_transform` typo and specificity on `.contact-links .contact-email`. Added CRM diamond logo to nav (assets/crm-logo.png, linked to #intro). Logo looks soft at small sizes because the lines go sub-pixel; bumped width as a stopgap.
 
 ## NEXT UP
 
-1. **Contact section.** Heading is "Let's talk data." Write body copy (use `.body-copy`) and add links: email, LinkedIn, GitHub.
-2. **Nav logo.** `.nav-logo` is still empty.
-3. **Diamond cursor.** Confirm the body cursor (not just hover) renders, then close out.
-4. **Skills check.** Shrink the browser window and confirm the grid wraps cleanly to 2×2.
+1. **SVG logo.** Flat version, thicker divider lines, no letter shadow. Find the original design file, or rebuild as SVG.
+2. **Deploy to GitHub Pages.** Get the site live at a real URL.
+3. **Resume PDF.** "View Resume" points to Caden_Raymond_Resume.pdf. Confirm the file exists in the repo and is current.
+4. **Polish list:** add `rel="noopener noreferrer"` to the Work card links, `@import` → `<link>` for fonts, drop redundant `.nav-resume a` selector, PNG cursor fallback for Safari.
 
 ## POLISH LIST
 

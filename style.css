@@ -59,6 +59,13 @@ h2 {
     margin-bottom: 1.25rem;
 }
 
+.nav-logo img {
+    width: 72px;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
 .sidenav a {
     text-decoration: none;
     color: #f5f0e8;
