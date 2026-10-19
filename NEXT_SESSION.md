@@ -16,15 +16,15 @@
 
 Plan going forward: short (~30 min) website sessions to rebuild rhythm. Detroit pipeline waits for a longer runway.
 
+**10/16/2026:** Added `h2` type scale (2.5rem). Renamed `.intro-body` → `.body-copy` and applied to Intro and About. Built Skills section: four groups (Databases & SQL, Python, Reporting & BI, Engineering Tools) in `.skills-grid`. Listed SQL Server as SSMS, not SSIS (query work, not ETL packages).
 ---
 
 ## NEXT UP
 
-1. **About section styling.** Copy is in, but it doesn't match Intro: no gap between heading and paragraph, body text brighter than Intro's, tighter line-height, section pinned to the top of the viewport. Likely cause: Intro styles are scoped to `#intro`, and the `*` reset zeroes margins everywhere else. Fix: find the Intro rules in style.css, move the shared ones (spacing, body color, line-height) to a shared selector (`.main-section` / `.section-inner`), and keep hero-only styles (name size, amber tagline) on `#intro`.
-2. **Skills section content.** Still placeholder.
-3. **Contact section.** Body is still placeholder. Heading may already have been changed from "Let's talk baseball" (read as "Let's talk data" on 10/15). Confirm the wording, then write the body.
-4. **Nav logo.** `.nav-logo` is still empty.
-5. **Diamond cursor.** A diamond cursor was visible on 10/15. Confirm the body cursor (not just the hover state) renders, then close this out.
+1. **Contact section.** Heading is "Let's talk data." Write body copy (use `.body-copy`) and add links: email, LinkedIn, GitHub.
+2. **Nav logo.** `.nav-logo` is still empty.
+3. **Diamond cursor.** Confirm the body cursor (not just hover) renders, then close out.
+4. **Skills check.** Shrink the browser window and confirm the grid wraps cleanly to 2×2.
 
 ## POLISH LIST
 

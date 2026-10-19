@@ -137,7 +137,7 @@ h2 {
     padding-left: 0.85rem;
 }
 
-.work-card a {
+.work-card a, .contact-links a {
     font-family: 'DM Mono', monospace;
     font-size: 0.75rem;
     letter-spacing: 0.08em;
@@ -149,7 +149,7 @@ h2 {
     cursor: url('assets/vector-diamond-filled.svg') 11 11, pointer;
 }
 
-.work-card a:hover {
+.work-card a:hover, .contact-links a:hover {
     color: #e0a458;
 }
 
@@ -190,4 +190,17 @@ h2 {
     font-size: 0.9rem;
     line-height: 1.65;
     color: rgba(245, 240, 232, 0.8);
+}
+
+.contact-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.contact-links .contact-email {
+    text-transform: none;
+    letter-spacing: 0.02em;
 }
