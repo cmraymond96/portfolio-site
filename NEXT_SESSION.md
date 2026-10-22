@@ -20,12 +20,15 @@ Plan going forward: short (~30 min) website sessions to rebuild rhythm. Detroit 
 
 **10/19/2026:** Built Contact section (body copy, mailto email, LinkedIn, GitHub). Fixed `text_transform` typo and specificity on `.contact-links .contact-email`. Added CRM diamond logo to nav (assets/crm-logo.png, linked to #intro). Logo looks soft at small sizes because the lines go sub-pixel; bumped width as a stopgap.
 
+**10/22/2026:** Swapped in the SVG logo. Re-bought cadenraymond.com through Squarespace (paid through Oct 2028, auto-renew on). Pointed DNS at GitHub Pages (4 A records + www CNAME); DNS check passed. Updated GitHub bio and website link.
+
 ## NEXT UP
 
-1. **SVG logo.** Flat version, thicker divider lines, no letter shadow. Find the original design file, or rebuild as SVG.
-2. **Deploy to GitHub Pages.** Get the site live at a real URL.
-3. **Resume PDF.** "View Resume" points to Caden_Raymond_Resume.pdf. Confirm the file exists in the repo and is current.
-4. **Polish list:** add `rel="noopener noreferrer"` to the Work card links, `@import` → `<link>` for fonts, drop redundant `.nav-resume a` selector, PNG cursor fallback for Safari.
+1. **Confirm live + HTTPS.** Load cadenraymond.com and check that Enforce HTTPS is on.
+2. **Google Search Console.** Verify the domain and request indexing.
+3. **Link the site everywhere.** LinkedIn, resume, TeamworkOnline.
+4. **Resume PDF.** Confirm Caden_Raymond_Resume.pdf exists in the repo and is current.
+5. **Pivot to Detroit pipeline.** First session is a re-orientation: reread the SQL files and notes, no new code.
 
 ## POLISH LIST
 
