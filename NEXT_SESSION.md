@@ -22,13 +22,15 @@ Plan going forward: short (~30 min) website sessions to rebuild rhythm. Detroit 
 
 **10/22/2026:** Swapped in the SVG logo. Re-bought cadenraymond.com through Squarespace (paid through Oct 2028, auto-renew on). Pointed DNS at GitHub Pages (4 A records + www CNAME); DNS check passed. Updated GitHub bio and website link.
 
+**10/23/2026:** Fixed the resume 404 (new branded PDF in assets). Reorganized style.css into numbered sections. Added smooth scrolling with a reduced-motion override. Started the mobile media query: the nav moves to the top and the content goes full width.
+
 ## NEXT UP
 
-1. **Confirm live + HTTPS.** Load cadenraymond.com and check that Enforce HTTPS is on.
-2. **Google Search Console.** Verify the domain and request indexing.
-3. **Link the site everywhere.** LinkedIn, resume, TeamworkOnline.
-4. **Resume PDF.** Confirm Caden_Raymond_Resume.pdf exists in the repo and is current.
-5. **Pivot to Detroit pipeline.** First session is a re-orientation: reread the SQL files and notes, no new code.
+1. **Mobile, part 2.** Line up the nav links side by side, shrink h1/h2, check the work and skills grids on a real phone.
+2. **Meta description** for SEO.
+3. **Google Search Console.** Verify the domain and request indexing.
+4. **Later polish.** Name the colors as CSS variables, add fade-in sections, maybe the rotating diamonds.
+5. **Then Detroit.** First session is re-orientation only, no new SQL.
 
 ## POLISH LIST
 
