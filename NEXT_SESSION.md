@@ -24,10 +24,12 @@ Plan going forward: short (~30 min) website sessions to rebuild rhythm. Detroit 
 
 **10/23/2026:** Fixed the resume 404 (new branded PDF in assets). Reorganized style.css into numbered sections. Added smooth scrolling with a reduced-motion override. Started the mobile media query: the nav moves to the top and the content goes full width.
 
+**10/25/2026:** Raised the mobile breakpoint to 1024px and added `(pointer: coarse)` so iPads and touch devices get the top nav. Fixed the squished layout: the static sidenav was rejoining `.portfolio`'s flex row, so `.portfolio` now stacks as a column on mobile. Nav is now two rows: logo on top, links full width underneath (`order: 3`, `space-between`). Shrunk the logo to 44px and reset the leftover sidebar margins. View Resume is landing under the links instead of beside the logo, probably because of a wrapper in the HTML.
+
 ## NEXT UP
 
-1. **Mobile, part 2.** Line up the nav links side by side, shrink h1/h2, check the work and skills grids on a real phone.
-2. **Meta description** for SEO.
+1. **Mobile, part 3.** Check the nav HTML for a wrapper around the list and View Resume so it sits top-right. Move margin-top from the `li` elements to `.nav-links-list`. Cut the `min-height: 100vh` gaps between sections. Shrink h1/h2, check the work and skills grids on a real phone.
+2. **Favicon, title, and meta description.** Diamond logo as the favicon (replaces the globe in Google results), a stronger `<title>`, and a written meta description.
 3. **Google Search Console.** Verify the domain and request indexing.
 4. **Later polish.** Name the colors as CSS variables, add fade-in sections, maybe the rotating diamonds.
 5. **Then Detroit.** First session is re-orientation only, no new SQL.
