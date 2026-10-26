@@ -306,6 +306,11 @@ h2 {
         white-space: nowrap;
     }
 
+    .nav-logo img {
+        width: 56px;
+        margin-bottom: 0;   
+    }
+
     .main-content {
         margin-left: 0;
     }
@@ -314,4 +319,5 @@ h2 {
         min-height: auto;
         padding: 4rem 2rem;
     }
+
 }
