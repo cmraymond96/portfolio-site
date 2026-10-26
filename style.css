@@ -261,7 +261,7 @@ h2 {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px), (pointer: coarse) {
     .sidenav {
         position: static;
         width: 100%;
@@ -269,8 +269,38 @@ h2 {
         flex-direction: row;
         justify-content: space-between;
         padding: 1rem 2rem;
+        align-items: center;
+        flex-wrap: wrap;
         border-right: none;
         border-bottom: 1px solid rgba(245, 240, 232, 0.15);
+    }
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .nav-links-list {
+        display: flex;
+        width: 100%;
+        order: 3;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .nav-links-list li {
+        margin-bottom: 0;
+    }
+
+
+    .nav-logo img {
+        width: 44px;
+        margin-bottom: 0;
+    }
+
+    .nav-resume {
+        white-space: nowrap;
     }
 
     .main-content {
