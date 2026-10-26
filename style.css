@@ -309,4 +309,9 @@ h2 {
     .main-content {
         margin-left: 0;
     }
+
+    .main-section {
+        min-height: auto;
+        padding: 4rem 2rem;
+    }
 }
